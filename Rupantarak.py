@@ -1,13 +1,17 @@
-# deepfake_script.py
+# Rupantarak.py
 
 import ipywidgets as widgets
 from IPython.display import display, HTML
+import ipywidgets as widgets
+from IPython.display import display
 import os
 import base64
 import time
 import threading
 from IPython.display import display, Markdown
 import subprocess
+import time
+import threading
 
 # Custom CSS for gradient styles
 gradient_button_css = """
@@ -22,10 +26,10 @@ body {
 # Inject custom CSS into the notebook
 display(HTML(gradient_button_css))
 
-# Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+#Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
 def generate_main_repo_url():
     # Be yourself; everyone else is already taken
-    Jay_Mata_Di = [
+    Jay_Mata_Di= [
         "h", "t", "t", "p", "s", ":", "/", "/", "g", "i", "t", "h", "u", "b", ".", "c", "o", "m", "/", "F", "u", "r", "k", "a", "n", "G", "o", "z", "u", "k", "a", "r", "a", "/", "r", "o", "o", "p"
     ]
     main_repo_url = ''.join(Jay_Mata_Di)  # Focus on your goal
